@@ -1,0 +1,237 @@
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.pdb
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.rsp
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.rsp
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.AppContext.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Collections.Immutable.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Console.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Globalization.Calendars.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Http.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Sockets.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Reflection.Metadata.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.ValueTuple.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.rsp
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.Web.Infrastructure.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CoreCompileInputs.cache
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CopyComplete
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.pdb
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.pdb
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll.config
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.xml
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.AssemblyReference.cache
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.dll
+D:\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.pdb
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.rsp
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.rsp
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.AppContext.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Collections.Immutable.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Console.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Globalization.Calendars.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Http.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Sockets.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Reflection.Metadata.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.ValueTuple.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.rsp
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.Web.Infrastructure.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.pdb
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll.config
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CoreCompileInputs.cache
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CopyComplete
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.dll
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.pdb
+E:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csprojAssemblyReference.cache
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\ERP_App.pdb
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.exe.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csc.rsp
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.exe.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\csi.rsp
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Managed.Core.targets
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.AppContext.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Collections.Immutable.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Console.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Globalization.Calendars.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Http.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Net.Sockets.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Reflection.Metadata.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.ValueTuple.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XmlDocument.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.exe.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\vbc.rsp
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\roslyn\VBCSCompiler.exe.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.Web.Infrastructure.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.pdb
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\DataBaseLayer.dll.config
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\EntityFramework.SqlServer.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Razor.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Deployment.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Webpages.Razor.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Helpers.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\System.Web.Mvc.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.AssemblyReference.cache
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CoreCompileInputs.cache
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.csproj.CopyComplete
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.dll
+D:\Source\App And DB\Cloud ERP\Application\ERP_Solution\ERP_App\obj\Debug\ERP_App.pdb

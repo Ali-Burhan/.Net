@@ -1,0 +1,12 @@
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\DataBaseLayer.dll.config
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\DataBaseLayer.dll
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\DataBaseLayer.pdb
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\EntityFramework.dll
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\EntityFramework.SqlServer.dll
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\EntityFramework.xml
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\bin\Release\EntityFramework.SqlServer.xml
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\obj\Release\DataBaseLayer.csproj.AssemblyReference.cache
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\obj\Release\DataBaseLayer.csproj.CoreCompileInputs.cache
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\obj\Release\DataBaseLayer.csproj.CopyComplete
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\obj\Release\DataBaseLayer.dll
+D:\Cloud ERP\Application\ERP_Solution\DataBaseLayer\obj\Release\DataBaseLayer.pdb

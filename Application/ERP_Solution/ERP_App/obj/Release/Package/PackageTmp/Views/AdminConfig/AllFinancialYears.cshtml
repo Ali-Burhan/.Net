@@ -1,0 +1,55 @@
+﻿@model IEnumerable<ERP_App.Models.FinancialYearMV>
+
+@{
+    ViewBag.Title = "Financial Year's";
+}
+
+<h2>Financial Year's'</h2>
+
+<p>
+    @Html.ActionLink("New Financial Year", "CreateFinancialYear", null, new {@class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.FinancialYear)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.StartDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.EndDate)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.IsActive)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.CreatedBy)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.FinancialYear)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.StartDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.EndDate)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.IsActive)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedBy)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditFinancialYear", new { financialyearid = item.FinancialYearID }, new { @class = "btn btn-warning" }) 
+        </td>
+    </tr>
+}
+
+</table>

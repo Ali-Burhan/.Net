@@ -1,0 +1,73 @@
+﻿@model IEnumerable<ERP_App.Models.BranchMV>
+@{
+    ViewBag.Title = "All Branch's";
+}
+<div class="card">
+    <div class="card-header">
+        <div class="card-title">All Branch's</div>
+
+    </div>
+    <div class="card-body">
+        <div>@Html.ActionLink("New Branch", "CreateCompanyBranch", null, new { @class = "btn btn-primary" })</div>
+        <hr />
+        <table class="table table-striped my-4 w-100" id="datatable2">
+            <thead>
+                <tr>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BranchType)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BranchName)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Company)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BranchContact)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.BranchAddress)
+                    </th>
+
+                    <th></th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchType)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchName)
+                        </td>
+                        <th>
+                            @Html.DisplayFor(modelItem => item.Company)
+                        </th>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchContact)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.BranchAddress)
+                        </td>
+
+                        <td>
+                            @if(item.IsHaveAFocalPerson == true)
+                {
+
+                            @Html.ActionLink("Focal Person", "ShowBranchFocalPerson", "Branch", new { branchID = item.BranchID }, new { @class = "btn btn-success" })
+                }
+                else
+                {
+                            @Html.ActionLink("Add Focal Person", "CreateBranchFocalPerson", "Employee", new { branchID = item.BranchID }, new { @class = "btn btn-primary" })
+
+                }
+                            @Html.ActionLink("Edit", "EditCompanyBranch", new { branchID = item.BranchID }, new { @class = "btn btn-warning" })
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+</div>

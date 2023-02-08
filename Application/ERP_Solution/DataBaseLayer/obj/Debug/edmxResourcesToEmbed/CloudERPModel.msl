@@ -1,0 +1,881 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="CloudERPModelStoreContainer" CdmEntityContainer="CloudERPEntities">
+    <EntitySetMapping Name="tblAccountActivities">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAccountActivity">
+        <MappingFragment StoreEntitySet="tblAccountActivity">
+          <ScalarProperty Name="AccountActivityID" ColumnName="AccountActivityID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAccountControls">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAccountControl">
+        <MappingFragment StoreEntitySet="tblAccountControl">
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountControlName" ColumnName="AccountControlName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAccountHeads">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAccountHead">
+        <MappingFragment StoreEntitySet="tblAccountHead">
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountHeadName" ColumnName="AccountHeadName" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAccountSettings">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAccountSetting">
+        <MappingFragment StoreEntitySet="tblAccountSetting">
+          <ScalarProperty Name="AccountSettingID" ColumnName="AccountSettingID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="AccountActivityID" ColumnName="AccountActivityID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAccountSubControls">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAccountSubControl">
+        <MappingFragment StoreEntitySet="tblAccountSubControl">
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="AccountSubControlName" ColumnName="AccountSubControlName" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBranches">
+      <EntityTypeMapping TypeName="CloudERPModel.tblBranch">
+        <MappingFragment StoreEntitySet="tblBranch">
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="BranchTypeID" ColumnName="BranchTypeID" />
+          <ScalarProperty Name="BranchName" ColumnName="BranchName" />
+          <ScalarProperty Name="BranchContact" ColumnName="BranchContact" />
+          <ScalarProperty Name="BranchAddress" ColumnName="BranchAddress" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BrchID" ColumnName="BrchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblBranchTypes">
+      <EntityTypeMapping TypeName="CloudERPModel.tblBranchType">
+        <MappingFragment StoreEntitySet="tblBranchType">
+          <ScalarProperty Name="BranchTypeID" ColumnName="BranchTypeID" />
+          <ScalarProperty Name="BranchType" ColumnName="BranchType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCategories">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCategory">
+        <MappingFragment StoreEntitySet="tblCategory">
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="categoryName" ColumnName="categoryName" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCities">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCity">
+        <MappingFragment StoreEntitySet="tblCity">
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="CityName" ColumnName="CityName" />
+          <ScalarProperty Name="StateID" ColumnName="StateID" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CityZone" ColumnName="CityZone" />
+          <ScalarProperty Name="CityCode" ColumnName="CityCode" />
+          <ScalarProperty Name="CityPinCode" ColumnName="CityPinCode" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCompanies">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCompany">
+        <MappingFragment StoreEntitySet="tblCompany">
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="Logo" ColumnName="Logo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCountries">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCountry">
+        <MappingFragment StoreEntitySet="tblCountry">
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="CountryName" ColumnName="CountryName" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="Keyword" ColumnName="Keyword" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomers">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomer">
+        <MappingFragment StoreEntitySet="tblCustomer">
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="Customername" ColumnName="Customername" />
+          <ScalarProperty Name="CustomerContact" ColumnName="CustomerContact" />
+          <ScalarProperty Name="CustomerArea" ColumnName="CustomerArea" />
+          <ScalarProperty Name="CustomerAddress" ColumnName="CustomerAddress" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerPayments">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerPayment">
+        <MappingFragment StoreEntitySet="tblCustomerPayment">
+          <ScalarProperty Name="CustomerPaymentID" ColumnName="CustomerPaymentID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="invoiceNo" ColumnName="invoiceNo" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerReturnPayments">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerReturnPayment">
+        <MappingFragment StoreEntitySet="tblCustomerReturnPayment">
+          <ScalarProperty Name="CustomerReturnPaymentID" ColumnName="CustomerReturnPaymentID" />
+          <ScalarProperty Name="CustomerReturnInvoiceID" ColumnName="CustomerReturnInvoiceID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblEmployees">
+      <EntityTypeMapping TypeName="CloudERPModel.tblEmployee">
+        <MappingFragment StoreEntitySet="tblEmployee">
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="Photo" ColumnName="Photo" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="CNIC" ColumnName="CNIC" />
+          <ScalarProperty Name="Designation" ColumnName="Designation" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="MonthlySalary" ColumnName="MonthlySalary" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblFinancialYears">
+      <EntityTypeMapping TypeName="CloudERPModel.tblFinancialYear">
+        <MappingFragment StoreEntitySet="tblFinancialYear">
+          <ScalarProperty Name="FinancialYearID" ColumnName="FinancialYearID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="FinancialYear" ColumnName="FinancialYear" />
+          <ScalarProperty Name="StartDate" ColumnName="StartDate" />
+          <ScalarProperty Name="EndDate" ColumnName="EndDate" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPayrolls">
+      <EntityTypeMapping TypeName="CloudERPModel.tblPayroll">
+        <MappingFragment StoreEntitySet="tblPayroll">
+          <ScalarProperty Name="PayrollID" ColumnName="PayrollID" />
+          <ScalarProperty Name="EmployeeID" ColumnName="EmployeeID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="TransferAmount" ColumnName="TransferAmount" />
+          <ScalarProperty Name="PayrollInvoiceNo" ColumnName="PayrollInvoiceNo" />
+          <ScalarProperty Name="PaymentDate" ColumnName="PaymentDate" />
+          <ScalarProperty Name="SalaryMonth" ColumnName="SalaryMonth" />
+          <ScalarProperty Name="SalaryYear" ColumnName="SalaryYear" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPurchaseCartDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblPurchaseCartDetail">
+        <MappingFragment StoreEntitySet="tblPurchaseCartDetail">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PreviousPurchaseUnitPrice" ColumnName="PreviousPurchaseUnitPrice" />
+          <ScalarProperty Name="PurchaseCartDetailID" ColumnName="PurchaseCartDetailID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PurchaseQuantity" ColumnName="PurchaseQuantity" />
+          <ScalarProperty Name="purchaseUnitPrice" ColumnName="purchaseUnitPrice" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSaleCartDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSaleCartDetail">
+        <MappingFragment StoreEntitySet="tblSaleCartDetail">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PreviousSaleUnitPrice" ColumnName="PreviousSaleUnitPrice" />
+          <ScalarProperty Name="SaleCartDetailID" ColumnName="SaleCartDetailID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SaleQuantity" ColumnName="SaleQuantity" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStates">
+      <EntityTypeMapping TypeName="CloudERPModel.tblState">
+        <MappingFragment StoreEntitySet="tblState">
+          <ScalarProperty Name="StateID" ColumnName="StateID" />
+          <ScalarProperty Name="StateName" ColumnName="StateName" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblStocks">
+      <EntityTypeMapping TypeName="CloudERPModel.tblStock">
+        <MappingFragment StoreEntitySet="tblStock">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CategoryID" ColumnName="CategoryID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="ProductName" ColumnName="ProductName" />
+          <ScalarProperty Name="Quantity" ColumnName="Quantity" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="CurrentPurchaseUnitPrice" ColumnName="CurrentPurchaseUnitPrice" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="Manufacture" ColumnName="Manufacture" />
+          <ScalarProperty Name="StockTreshHoldQuantity" ColumnName="StockTreshHoldQuantity" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSuppliers">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplier">
+        <MappingFragment StoreEntitySet="tblSupplier">
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierName" ColumnName="SupplierName" />
+          <ScalarProperty Name="SupplierConatctNo" ColumnName="SupplierConatctNo" />
+          <ScalarProperty Name="SupplierAddress" ColumnName="SupplierAddress" />
+          <ScalarProperty Name="SupplierEmail" ColumnName="SupplierEmail" />
+          <ScalarProperty Name="Discription" ColumnName="Discription" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierPayments">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierPayment">
+        <MappingFragment StoreEntitySet="tblSupplierPayment">
+          <ScalarProperty Name="SupplierPaymentID" ColumnName="SupplierPaymentID" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblTransactions">
+      <EntityTypeMapping TypeName="CloudERPModel.tblTransaction">
+        <MappingFragment StoreEntitySet="tblTransaction">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="FinancialYearID" ColumnName="FinancialYearID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="TransectionTitle" ColumnName="TransectionTitle" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUsers">
+      <EntityTypeMapping TypeName="CloudERPModel.tblUser">
+        <MappingFragment StoreEntitySet="tblUser">
+          <ScalarProperty Name="Address" ColumnName="Address" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="FullName" ColumnName="FullName" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="UserName" ColumnName="UserName" />
+          <ScalarProperty Name="Password" ColumnName="Password" />
+          <ScalarProperty Name="IsActive" ColumnName="IsActive" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblUserTypes">
+      <EntityTypeMapping TypeName="CloudERPModel.tblUserType">
+        <MappingFragment StoreEntitySet="tblUserType">
+          <ScalarProperty Name="UserTypeID" ColumnName="UserTypeID" />
+          <ScalarProperty Name="UserType" ColumnName="UserType" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblAgents">
+      <EntityTypeMapping TypeName="CloudERPModel.tblAgent">
+        <MappingFragment StoreEntitySet="tblAgent">
+          <ScalarProperty Name="AgentID" ColumnName="AgentID" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="AgentName" ColumnName="AgentName" />
+          <ScalarProperty Name="ContactNo" ColumnName="ContactNo" />
+          <ScalarProperty Name="PhoneNo" ColumnName="PhoneNo" />
+          <ScalarProperty Name="Fax" ColumnName="Fax" />
+          <ScalarProperty Name="Email" ColumnName="Email" />
+          <ScalarProperty Name="Agent_Commission" ColumnName="Agent_Commission" />
+          <ScalarProperty Name="CountryID" ColumnName="CountryID" />
+          <ScalarProperty Name="StateID" ColumnName="StateID" />
+          <ScalarProperty Name="CityID" ColumnName="CityID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetSupplierReturnPurchasePaymentPending" FunctionName="CloudERPModel.Store.GetSupplierReturnPurchasePaymentPending">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetSupplierReturnPurchasePaymentPending_Result">
+          <ScalarProperty Name="SupplierReturnInvoiceID" ColumnName="SupplierReturnInvoiceID" />
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReturnRemainingPayment" ColumnName="ReturnRemainingPayment" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <EntitySetMapping Name="tblProductTypes">
+      <EntityTypeMapping TypeName="CloudERPModel.tblProductType">
+        <MappingFragment StoreEntitySet="tblProductType">
+          <ScalarProperty Name="ProductTypeName" ColumnName="ProductTypeName" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="v_Transaction">
+      <EntityTypeMapping TypeName="CloudERPModel.v_Transaction">
+        <MappingFragment StoreEntitySet="v_Transaction">
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="TransectionTitle" ColumnName="TransectionTitle" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="AccountTitle" ColumnName="AccountTitle" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="FinancialYearID" ColumnName="FinancialYearID" />
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblPurchaseCartReturnDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblPurchaseCartReturnDetail">
+        <MappingFragment StoreEntitySet="tblPurchaseCartReturnDetail">
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PreviousPurchaseUnitPrice" ColumnName="PreviousPurchaseUnitPrice" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="purchaseUnitPrice" ColumnName="purchaseUnitPrice" />
+          <ScalarProperty Name="PurchaseQuantity" ColumnName="PurchaseQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="PurchaseCartReturnDetail" ColumnName="PurchaseCartReturnDetail" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierInvoices">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierInvoice">
+        <MappingFragment StoreEntitySet="tblSupplierInvoice">
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="shippingfee" ColumnName="shippingfee" />
+          <ScalarProperty Name="estimatedtax" ColumnName="estimatedtax" />
+          <ScalarProperty Name="subtotalamount" ColumnName="subtotalamount" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierReturnInvoices">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierReturnInvoice">
+        <MappingFragment StoreEntitySet="tblSupplierReturnInvoice">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="shippingfee" ColumnName="shippingfee" />
+          <ScalarProperty Name="estimatedtax" ColumnName="estimatedtax" />
+          <ScalarProperty Name="subtotalamount" ColumnName="subtotalamount" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierReturnInvoiceID" ColumnName="SupplierReturnInvoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierReturnPayments">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierReturnPayment">
+        <MappingFragment StoreEntitySet="tblSupplierReturnPayment">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="SupplierReturnInvoiceID" ColumnName="SupplierReturnInvoiceID" />
+          <ScalarProperty Name="SupplierReturnPaymentID" ColumnName="SupplierReturnPaymentID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierInvoiceDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierInvoiceDetail">
+        <MappingFragment StoreEntitySet="tblSupplierInvoiceDetail">
+          <ScalarProperty Name="expirydate" ColumnName="expirydate" />
+          <ScalarProperty Name="manufacturedate" ColumnName="manufacturedate" />
+          <ScalarProperty Name="previouspurchaseunitprice" ColumnName="previouspurchaseunitprice" />
+          <ScalarProperty Name="purchaseUnitPrice" ColumnName="purchaseUnitPrice" />
+          <ScalarProperty Name="PurchaseQuantity" ColumnName="PurchaseQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="SupplierInvoiceDetailID" ColumnName="SupplierInvoiceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSupplierReturnInvoiceDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSupplierReturnInvoiceDetail">
+        <MappingFragment StoreEntitySet="tblSupplierReturnInvoiceDetail">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="PurchaseReturnUnitPrice" ColumnName="PurchaseReturnUnitPrice" />
+          <ScalarProperty Name="PurchaseReturnQuantity" ColumnName="PurchaseReturnQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SupplierInvoiceDetailID" ColumnName="SupplierInvoiceDetailID" />
+          <ScalarProperty Name="SupplierReturnInvoiceID" ColumnName="SupplierReturnInvoiceID" />
+          <ScalarProperty Name="SupplierReturnInvoiceDetailID" ColumnName="SupplierReturnInvoiceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblSaleCartReturnDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblSaleCartReturnDetail">
+        <MappingFragment StoreEntitySet="tblSaleCartReturnDetail">
+          <ScalarProperty Name="ExpiryDate" ColumnName="ExpiryDate" />
+          <ScalarProperty Name="ManufactureDate" ColumnName="ManufactureDate" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="PreviousSaleUnitPrice" ColumnName="PreviousSaleUnitPrice" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="SaleQuantity" ColumnName="SaleQuantity" />
+          <ScalarProperty Name="ProductTypeID" ColumnName="ProductTypeID" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="SaleCartReturnDetailID" ColumnName="SaleCartReturnDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerInvoices">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerInvoice">
+        <MappingFragment StoreEntitySet="tblCustomerInvoice">
+          <ScalarProperty Name="shippingfee" ColumnName="shippingfee" />
+          <ScalarProperty Name="estimatedtax" ColumnName="estimatedtax" />
+          <ScalarProperty Name="subtotalamount" ColumnName="subtotalamount" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="Title" ColumnName="Title" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerInvoiceDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerInvoiceDetail">
+        <MappingFragment StoreEntitySet="tblCustomerInvoiceDetail">
+          <ScalarProperty Name="expirydate" ColumnName="expirydate" />
+          <ScalarProperty Name="manufacturedate" ColumnName="manufacturedate" />
+          <ScalarProperty Name="PreviousSaleunitprice" ColumnName="PreviousSaleunitprice" />
+          <ScalarProperty Name="SaleUnitPrice" ColumnName="SaleUnitPrice" />
+          <ScalarProperty Name="SaleQuantity" ColumnName="SaleQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="CustomerInvoiceDetailID" ColumnName="CustomerInvoiceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerReturnInvoices">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerReturnInvoice">
+        <MappingFragment StoreEntitySet="tblCustomerReturnInvoice">
+          <ScalarProperty Name="shippingfee" ColumnName="shippingfee" />
+          <ScalarProperty Name="estimatedtax" ColumnName="estimatedtax" />
+          <ScalarProperty Name="subtotalamount" ColumnName="subtotalamount" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+          <ScalarProperty Name="Description" ColumnName="Description" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="TotalAmount" ColumnName="TotalAmount" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="CustomerReturnInvoiceID" ColumnName="CustomerReturnInvoiceID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tblCustomerReturnInvoiceDetails">
+      <EntityTypeMapping TypeName="CloudERPModel.tblCustomerReturnInvoiceDetail">
+        <MappingFragment StoreEntitySet="tblCustomerReturnInvoiceDetail">
+          <ScalarProperty Name="SaleReturnUnitPrice" ColumnName="SaleReturnUnitPrice" />
+          <ScalarProperty Name="SaleReturnQuantity" ColumnName="SaleReturnQuantity" />
+          <ScalarProperty Name="ProductID" ColumnName="ProductID" />
+          <ScalarProperty Name="CustomerReturnInvoiceID" ColumnName="CustomerReturnInvoiceID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="CustomerInvoiceDetailID" ColumnName="CustomerInvoiceDetailID" />
+          <ScalarProperty Name="CustomerReturnInvoiceDetailID" ColumnName="CustomerReturnInvoiceDetailID" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="GetAccountHeadDetials" FunctionName="CloudERPModel.Store.GetAccountHeadDetials">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetAccountHeadDetials_Result">
+          <ScalarProperty Name="AccountTitle" ColumnName="AccountTitle" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAccountTotalAmount" FunctionName="CloudERPModel.Store.GetAccountTotalAmount">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetAccountTotalAmount_Result">
+          <ScalarProperty Name="AccountTitle" ColumnName="AccountTitle" />
+          <ScalarProperty Name="Total" ColumnName="Total" />
+          <ScalarProperty Name="Status" ColumnName="Status" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetAllAccounts" FunctionName="CloudERPModel.Store.GetAllAccounts">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetAllAccounts_Result">
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountHeadName" ColumnName="AccountHeadName" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="AccountControlName" ColumnName="AccountControlName" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="AccountSubControl" ColumnName="AccountSubControl" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCustomerPaymentHistory" FunctionName="CloudERPModel.Store.GetCustomerPaymentHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetCustomerPaymentHistory_Result">
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCustomerRemainingPaymentRecord" FunctionName="CloudERPModel.Store.GetCustomerRemainingPaymentRecord">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetCustomerRemainingPaymentRecord_Result">
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="Payment" ColumnName="Payment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetCustomerReturnSalePaidPending" FunctionName="CloudERPModel.Store.GetCustomerReturnSalePaidPending">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetCustomerReturnSalePaidPending_Result">
+          <ScalarProperty Name="CustomerReturnInvoiceID" ColumnName="CustomerReturnInvoiceID" />
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReturnRemainingPayment" ColumnName="ReturnRemainingPayment" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETDashboardValues" FunctionName="CloudERPModel.Store.GETDashboardValues">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GETDashboardValues_Result">
+          <ScalarProperty Name="Current_Month_Expenses" ColumnName="Current Month Expenses" />
+          <ScalarProperty Name="Net_Income" ColumnName="Net Income" />
+          <ScalarProperty Name="Capital" ColumnName="Capital" />
+          <ScalarProperty Name="Cash_Bank_Balance" ColumnName="Cash/Bank Balance" />
+          <ScalarProperty Name="Total_Receivable" ColumnName="Total Receivable" />
+          <ScalarProperty Name="Total_Payable" ColumnName="Total Payable" />
+          <ScalarProperty Name="Current_Month_Revenue" ColumnName="Current Month Revenue" />
+          <ScalarProperty Name="Current_Month_Sale" ColumnName="Current Month Sale" />
+          <ScalarProperty Name="Current_Month_Sale_Payment_Succeed" ColumnName="Current Month Sale Payment Succeed" />
+          <ScalarProperty Name="Current_Month_Sale_Payment_Pending" ColumnName="Current Month Sale Payment Pending" />
+          <ScalarProperty Name="Current_Month_Return_Sale" ColumnName="Current Month Return Sale" />
+          <ScalarProperty Name="Current_Month_Return_Sale_Payment_Pending" ColumnName="Current Month Return Sale Payment Pending" />
+          <ScalarProperty Name="Current_Month_Return_Sale_Payment_Succeed" ColumnName="Current Month Return Sale Payment Succeed" />
+          <ScalarProperty Name="Current_Month_Purchase" ColumnName="Current Month Purchase" />
+          <ScalarProperty Name="Current_Month_Purchase_Paid_Payment" ColumnName="Current Month Purchase Paid Payment" />
+          <ScalarProperty Name="Current_Month_Purchase_Remaining_Payment" ColumnName="Current Month Purchase Remaining Payment" />
+          <ScalarProperty Name="Current_Month_Return_Purchase" ColumnName="Current Month Return Purchase" />
+          <ScalarProperty Name="Current_Month_Purchase_Payment_Pending" ColumnName="Current Month Purchase Payment Pending" />
+          <ScalarProperty Name="Current_Month_Purchase_Succeed_Payment" ColumnName="Current Month Purchase Succeed Payment" />
+          <ScalarProperty Name="Day_Sale" ColumnName="Day Sale" />
+          <ScalarProperty Name="Day_Sale_Payment_Succeed" ColumnName="Day Sale Payment Succeed" />
+          <ScalarProperty Name="Day_Sale_Payment_Pending" ColumnName="Day Sale Payment Pending" />
+          <ScalarProperty Name="Day_Return_Sale" ColumnName="Day Return Sale" />
+          <ScalarProperty Name="Day_Return_Sale_Payment_Pending" ColumnName="Day Return Sale Payment Pending" />
+          <ScalarProperty Name="Day_Return_Sale_Payment_Succeed" ColumnName="Day Return Sale Payment Succeed" />
+          <ScalarProperty Name="Day_Purchase" ColumnName="Day Purchase" />
+          <ScalarProperty Name="Day_Purchase_Payment_Paid" ColumnName="Day Purchase Payment Paid" />
+          <ScalarProperty Name="Day_Purchase_Remaining_Payment" ColumnName="Day Purchase Remaining Payment" />
+          <ScalarProperty Name="Day_Return_Purchase" ColumnName="Day Return Purchase" />
+          <ScalarProperty Name="Day_Return_Purchase_Payment_Pending" ColumnName="Day Return Purchase Payment Pending" />
+          <ScalarProperty Name="Day_Return_Purchase_Payment_Succed" ColumnName="Day Return Purchase Payment Succed" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetJournal" FunctionName="CloudERPModel.Store.GetJournal">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetJournal_Result">
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="AccountSubControl" ColumnName="AccountSubControl" />
+          <ScalarProperty Name="TransectionTitle" ColumnName="TransectionTitle" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetLedger" FunctionName="CloudERPModel.Store.GetLedger">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetLedger_Result">
+          <ScalarProperty Name="TransactionID" ColumnName="TransactionID" />
+          <ScalarProperty Name="FinancialYearID" ColumnName="FinancialYearID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="AccountHeadID" ColumnName="AccountHeadID" />
+          <ScalarProperty Name="AccountControlID" ColumnName="AccountControlID" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="AccountTitle" ColumnName="AccountTitle" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="TransectionDate" ColumnName="TransectionDate" />
+          <ScalarProperty Name="TransectionTitle" ColumnName="TransectionTitle" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetPurchasesHistory" FunctionName="CloudERPModel.Store.GetPurchasesHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetPurchasesHistory_Result">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BeforeReturnTotal" ColumnName="BeforeReturnTotal" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="AfterReturnTotal" ColumnName="AfterReturnTotal" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetReturnPurchasePaymentPending" FunctionName="CloudERPModel.Store.GetReturnPurchasePaymentPending">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetReturnPurchasePaymentPending_Result">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BeforeReturnTotal" ColumnName="BeforeReturnTotal" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="AfterReturnTotal" ColumnName="AfterReturnTotal" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetReturnSaleAmountPending" FunctionName="CloudERPModel.Store.GetReturnSaleAmountPending">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetReturnSaleAmountPending_Result">
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BeforeReturnTotal" ColumnName="BeforeReturnTotal" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="AfterReturnTotal" ColumnName="AfterReturnTotal" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSalesHistory" FunctionName="CloudERPModel.Store.GetSalesHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetSalesHistory_Result">
+          <ScalarProperty Name="CustomerInvoiceID" ColumnName="CustomerInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="CustomerID" ColumnName="CustomerID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BeforeReturnTotal" ColumnName="BeforeReturnTotal" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="AfterReturnTotal" ColumnName="AfterReturnTotal" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSupplierPaymentHistory" FunctionName="CloudERPModel.Store.GetSupplierPaymentHistory">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetSupplierPaymentHistory_Result">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="Column1" ColumnName="Column1" />
+          <ScalarProperty Name="PaymentAmount" ColumnName="PaymentAmount" />
+          <ScalarProperty Name="RemainingBalance" ColumnName="RemainingBalance" />
+          <ScalarProperty Name="UserID" ColumnName="UserID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GetSupplierRemainingPaymentRecord" FunctionName="CloudERPModel.Store.GetSupplierRemainingPaymentRecord">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetSupplierRemainingPaymentRecord_Result">
+          <ScalarProperty Name="SupplierInvoiceID" ColumnName="SupplierInvoiceID" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+          <ScalarProperty Name="InvoiceDate" ColumnName="InvoiceDate" />
+          <ScalarProperty Name="SupplierID" ColumnName="SupplierID" />
+          <ScalarProperty Name="InvoiceNo" ColumnName="InvoiceNo" />
+          <ScalarProperty Name="BeforeReturnTotal" ColumnName="BeforeReturnTotal" />
+          <ScalarProperty Name="ReturnTotal" ColumnName="ReturnTotal" />
+          <ScalarProperty Name="AfterReturnTotal" ColumnName="AfterReturnTotal" />
+          <ScalarProperty Name="PaidAmount" ColumnName="PaidAmount" />
+          <ScalarProperty Name="ReturnPayment" ColumnName="ReturnPayment" />
+          <ScalarProperty Name="ReamingBalance" ColumnName="ReamingBalance" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="GETTotalBYHeadAccount" FunctionName="CloudERPModel.Store.GETTotalBYHeadAccount" />
+    <FunctionImportMapping FunctionImportName="GetTrialBalance" FunctionName="CloudERPModel.Store.GetTrialBalance">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="CloudERPModel.GetTrialBalance_Result">
+          <ScalarProperty Name="FinancialYearID" ColumnName="FinancialYearID" />
+          <ScalarProperty Name="AccountSubControl" ColumnName="AccountSubControl" />
+          <ScalarProperty Name="AccountSubControlID" ColumnName="AccountSubControlID" />
+          <ScalarProperty Name="Debit" ColumnName="Debit" />
+          <ScalarProperty Name="Credit" ColumnName="Credit" />
+          <ScalarProperty Name="BranchID" ColumnName="BranchID" />
+          <ScalarProperty Name="CompanyID" ColumnName="CompanyID" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

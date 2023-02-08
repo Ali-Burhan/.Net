@@ -1,0 +1,43 @@
+﻿@model IEnumerable<ERP_App.Models.AccountHeadMV>
+
+@{
+    ViewBag.Title = "Account Head's";
+}
+
+<h2>Account Heads</h2>
+
+<p>
+    @Html.ActionLink("New Head Account", "CreateAccountHead",null, new {@class = "btn btn-primary" })
+</p>
+<table class="table">
+    <tr>
+        <th>
+            Account Head
+        </th>
+        <th>
+            Code
+        </th>
+        <th>
+            Created By
+        </th>
+        <th>Action</th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.AccountHeadName)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Code)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.CreatedBy)
+        </td>
+        <td>
+            @Html.ActionLink("Edit", "EditAccountHead", new { accountheadid=item.AccountHeadID }, new {@class = "btn btn-warning" }) 
+        </td>
+    </tr>
+}
+
+</table>

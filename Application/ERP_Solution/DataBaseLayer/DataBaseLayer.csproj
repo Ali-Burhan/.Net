@@ -1,0 +1,270 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0D759B6E-C6DC-49E7-AA27-8227D62E5443}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>DataBaseLayer</RootNamespace>
+    <AssemblyName>DataBaseLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.2.0\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CloudERPModel.Context.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CloudERPModel.Context.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CloudERPModel.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="CloudERPModel.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CloudERPModel.edmx</DependentUpon>
+    </Compile>
+    <Compile Include="GetAccountHeadDetials_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetAccountTotalAmount_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetAllAccounts_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCustomerPaymentHistory_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCustomerRemainingPaymentRecord_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetCustomerReturnSalePaidPending_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GETDashboardValues_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetJournal_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetLedger_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetPurchasesHistory_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetReturnPurchasePaymentPending_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetReturnSaleAmountPending_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSalesHistory_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSupplierPaymentHistory_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSupplierRemainingPaymentRecord_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetSupplierReturnPurchasePaymentPending_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="GetTrialBalance_Result.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="tblAccountActivity.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAccountControl.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAccountHead.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAccountSetting.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAccountSubControl.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblAgent.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBranch.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblBranchType.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCategory.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCity.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCompany.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCountry.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomer.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerInvoice.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerInvoiceDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerPayment.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerReturnInvoice.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerReturnInvoiceDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblCustomerReturnPayment.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblEmployee.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblFinancialYear.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPayroll.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblProductType.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseCartDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblPurchaseCartReturnDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSaleCartDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSaleCartReturnDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblState.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblStock.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplier.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierInvoice.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierInvoiceDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierPayment.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierReturnInvoice.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierReturnInvoiceDetail.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblSupplierReturnPayment.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblTransaction.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUser.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="tblUserType.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+    <Compile Include="v_Transaction.cs">
+      <DependentUpon>CloudERPModel.tt</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EntityDeploy Include="CloudERPModel.edmx">
+      <Generator>EntityModelCodeGenerator</Generator>
+      <LastGenOutput>CloudERPModel.Designer.cs</LastGenOutput>
+    </EntityDeploy>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.Config" />
+    <None Include="CloudERPModel.edmx.diagram">
+      <DependentUpon>CloudERPModel.edmx</DependentUpon>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="CloudERPModel.Context.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <LastGenOutput>CloudERPModel.Context.cs</LastGenOutput>
+      <DependentUpon>CloudERPModel.edmx</DependentUpon>
+    </Content>
+    <Content Include="CloudERPModel.tt">
+      <Generator>TextTemplatingFileGenerator</Generator>
+      <DependentUpon>CloudERPModel.edmx</DependentUpon>
+      <LastGenOutput>CloudERPModel.cs</LastGenOutput>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
